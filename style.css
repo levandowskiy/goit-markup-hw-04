@@ -199,6 +199,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--cloud);
 }
 
 /*///////////////////////////// our-team */
@@ -247,6 +248,10 @@ nav {
 
 /* //////////////////////////portfolio */
 
+.header-portfolio {
+    border-bottom: 1px solid var(--corn-flower);
+}
+
 .portfolio-section {
     padding-top: 96px;
 }
@@ -282,7 +287,7 @@ nav {
     column-gap: 24px;
 }
 
-.card-item:hover {
+.card-link:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
