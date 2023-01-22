@@ -307,7 +307,7 @@ nav {
     padding-top: 130px;
 }
 
-.customers-item {
+.customers-link {
     padding: 16px 32px;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
@@ -317,11 +317,11 @@ nav {
     fill: #AFB1B8;
 }
 
-.customers-item:is(:hover, :focus) {
+.customers-link:is(:hover, :focus) {
     border-color: var(--ocean);
 }
 
-.customers-item:is(:hover, :focus) .customers-icon{
+.customers-link:is(:hover, :focus) .customers-icon{
     fill: var(--ocean);
   }
   
